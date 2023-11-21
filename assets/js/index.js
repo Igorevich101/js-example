@@ -10,7 +10,7 @@ let num6 = num5/2.687;
 console.log(num6);
 let num7 = num5%2.687;
 console.log(num7);
-console.log(num7<0);
+!!console.log(num7<0);
 
 let num = 5;
 
@@ -21,3 +21,8 @@ num *= 2;
 num -= 4;
 
 num /= 6;
+
+const myFunction = function() {
+  console.log('asdasd');
+}
+myFunction()
